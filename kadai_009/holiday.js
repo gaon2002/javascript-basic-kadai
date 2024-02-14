@@ -9,7 +9,8 @@ const holidays = ["正月","成人の日","建国記念日","天皇誕生日","�
 console.log('***while文での出力***');
 
 let i = 0
-while (i !== 16){
+// (i !== 16)よりは(i < 16)とした方がよい
+while (i < 16){
   console.log(holidays[i]);
   i = i += 1;
 }
