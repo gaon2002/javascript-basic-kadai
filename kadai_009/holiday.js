@@ -9,12 +9,9 @@ const holidays = ["正月","成人の日","建国記念日","天皇誕生日","�
 console.log('***while文での出力***');
 
 let i = 0
-// 初期値での表示
-console.log(holidays[i]);
-
-while (i !== 15){
-  i = i += 1;
+while (i !== 16){
   console.log(holidays[i]);
+  i = i += 1;
 }
 
 // for文
