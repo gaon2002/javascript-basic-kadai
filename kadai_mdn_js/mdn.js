@@ -6,6 +6,7 @@ const today = new Date();
 
 // 年月日それぞれのデータを定義
 const year = today.getFullYear();
+// なぜ、月だけ0から始めるのか
 const month = today.getMonth() + 1;
 const date = today.getDate();
 
